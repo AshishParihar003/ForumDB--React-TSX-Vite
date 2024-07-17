@@ -1,0 +1,22 @@
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .marquee-content {
+    display: block;
+    width: max-content;
+    position: absolute;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { left: 100%; }
+    to { left: -100%; }
+  }
+  

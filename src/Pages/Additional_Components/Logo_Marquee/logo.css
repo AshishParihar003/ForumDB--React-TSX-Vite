@@ -1,0 +1,10 @@
+/* Add this inside your global CSS file, not directly in a React component */
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
+  .animate-marquee {
+    animation: marquee 50s linear infinite;
+  }
+  
